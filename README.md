@@ -5,7 +5,8 @@ Gereksinimler: 2 CPU 4 RAM 200 GB Yeterli
 
 Sistemimizi Güncelleyelim
 
-```sudo apt update & sudo apt upgrade```
+```shell
+sudo apt update & sudo apt upgrade```
 
 Docker Kuralım
 
