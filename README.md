@@ -10,30 +10,38 @@ sudo apt update & sudo apt upgrade```
 
 Docker Kuralım
 
-```sudo apt install docker-compose```
+```shell
+sudo apt install docker-compose```
 
 
-```sudo apt-get update && sudo apt install jq && sudo apt install apt-transport-https ca-certificates curl software-properties-common -y && curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add - && sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu focal stable" && sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin && sudo apt-get install docker-compose-plugin```
+```shell
+sudo apt-get update && sudo apt install jq && sudo apt install apt-transport-https ca-certificates curl software-properties-common -y && curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add - && sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu focal stable" && sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin && sudo apt-get install docker-compose-plugin```
 
 Git Kurulumu
 
-```sudo apt-get install git-all```
+```shell
+sudo apt-get install git-all```
 
 Versiyon Kontrolü
 
-```git version```
+```shell
+git version```
 
 Kuruluma Geçebiliriz
 
-```git clone https://github.com/taikoxyz/simple-taiko-node.git```
+```shell
+git clone https://github.com/taikoxyz/simple-taiko-node.git```
 
-```cd simple-taiko-node```
+```shell
+cd simple-taiko-node```
 
-```cp .env.sample .env```
+```shell
+cp .env.sample .env```
 
 Nano İçine Girelim
 
-```nano .env```
+```shell
+nano .env```
 
 Ok Tuşlarıyla İlgili yerlere Girelim
 
@@ -53,7 +61,8 @@ CTRL+X sonrasında y ve entera basıp kaydediyoruz.
 
 Nodeu başlatalım
 
-```docker compose up -d```
+```shell
+docker compose up -d```
 
 
 
