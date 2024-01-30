@@ -61,6 +61,9 @@ blockpi.io sitesine kaydolup Generate>Ethereum>Holesky seçip Generate butonuna 
 L1_ENDPOINT_HTTP=https://ethereum...
 L1_ENDPOINT_WS=wss://ethereum...
 
+![Adsız](https://github.com/mcyucel/Taiko-Holesky-Node-Kurulumu/assets/106594298/4561e9fc-9365-4c13-9902-0955eadd2c06)
+
+
 Gerekli Yerleri Aşağıdaki Gibi Dolduruyoruz
 
 ENABLE_PROVER=true
