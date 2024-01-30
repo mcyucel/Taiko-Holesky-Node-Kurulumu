@@ -56,10 +56,10 @@ Ok Tuşlarıyla İlgili yerlere Girelim
 
 Endpointleri Dolduruyoruz
 
-Alchemy, Infura gibi RPC sağlayıcılarda şu an Holesky yok. Bununla ilgili bir bilgi de yok ancak muhtemelen kendi RPC'sini gireceğiz. Aşağıdaki gibi dolduralım.
+blockpi.io sitesine kaydolup Generate>Ethereum>Holesky seçip Generate butonuna tıklıyoruz ve https ile wss linklerini kopyalayıp ilgili bölümlere yapıştırıyoruz
 
-L1_ENDPOINT_HTTP=https://ethereum-holesky.publicnode.com
-L1_ENDPOINT_WS=wss://ethereum-holesky.publicnode.com
+L1_ENDPOINT_HTTP=https://ethereum...
+L1_ENDPOINT_WS=wss://ethereum...
 
 Gerekli Yerleri Aşağıdaki Gibi Dolduruyoruz
 
