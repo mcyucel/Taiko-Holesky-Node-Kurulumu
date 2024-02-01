@@ -77,6 +77,11 @@ Nodeu başlatalım
 docker compose up -d
 ```
 
+Logları Kontrol Edelim
+
+```shell
+docker compose logs -f
+```
 
 
 www.x.com/0xMultijet
